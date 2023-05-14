@@ -34,9 +34,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Refactor awsomebooks project to ES6] <a name="about-project"></a>
+# 📖 [LeaderBoard] <a name="about-project"></a>
 
-**[Refactor awsomebooks project to ES6]** is a practice of responsive Design and JS DOM manipulation as capstone of the first module
+**[LeaderBoard]** is a practice of using API as a external service, also here I am practicing more webpack
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,14 +45,11 @@
 <details>
   <summary>Front End</summary>
   <ul>
-    <li><a href="https://reactjs.org/">Html</a></li>
+    <li><a href="https://reactjs.org/">webpack</a></li>
   </ul>
   <ul>
-    <li><a href="https://reactjs.org/">JS</a></li>
-  </ul>
-  <ul>
-    <li><a href="https://reactjs.org/">classes</a></li>
-  </ul>
+    <li><a href="https://reactjs.org/">API</a></li>
+  </ul>  
   <ul>
     <li><a href="https://reactjs.org/">ES6</a></li>
   </ul>
@@ -62,7 +59,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[only use js classes in diferent modules]**
+- **[it uses a API service]**
 - **[DOM manipularion using JS]**
 - **[Live demo]**
 
@@ -74,7 +71,6 @@
 
 
 - [Live Demo Link](https://benja27.github.io/CapstoneModule1/)
-- [Loom walkthrought Video](https://www.loom.com/share/efa132271014453bbb17fb462cc95999)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,10 +112,10 @@ Example commands:
 
 ### Install
 
-Install this project with:
-
-it does not requiere instalation.
-
+run this command on your command line :
+npm install
+npm dev
+npm start
 <!--
 Example command:
 
@@ -133,9 +129,8 @@ Example command:
 
 To run the project, execute the following command:
 
-Download or clone the repo and double click on the index.html file 
-If you want to modify something you can open the folder with your favorite text editor
-I recomend Visual studio code
+npm dev 
+npm start
 <!--
 Example command:
 
@@ -180,7 +175,6 @@ Example:
 👤 **Mariano Benjamin**
 
 - GitHub: [@githubhandle](https://github.com/benja27)
-- Twitter: [@twitterhandle](https://twitter.com/@rksne123)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/mariano-benjamin-mendez-garcia-a50856177)
 
 
@@ -190,9 +184,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[It will accept Bitcoin]**
-- [ ] **[It will be conected to internet]**
-- [ ] **[It will do something amazing]**
+- [ ] **[It will be connected to a real game]**
+- [ ] **[it will be responsive]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
