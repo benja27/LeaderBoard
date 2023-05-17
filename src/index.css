@@ -1,4 +1,16 @@
-/* body{
-  background-color: black;
-  color: white;
-} */
+.scores {
+  border: 2px solid black;
+  box-shadow: 0.5px 1px 1px 1px black;
+}
+
+.score {
+  padding: 5px 0 5px 10px;
+}
+
+.score h4 {
+  margin: 0;
+}
+
+.score:nth-child(odd) {
+  background-color: #ddd;
+}
