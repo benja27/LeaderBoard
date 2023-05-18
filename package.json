@@ -37,6 +37,8 @@
     "webpack-dev-server": "^4.13.1"
   },
   "dependencies": {
-    "html-loader": "^4.2.0"
+    "github": "^14.0.0",
+    "html-loader": "^4.2.0",
+    "pages": "^0.0.16"
   }
 }

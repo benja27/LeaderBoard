@@ -11,6 +11,7 @@ form.addEventListener('submit', (e) => {
   const score = form.score.value;
   game.addScore(user, score);
   game.fetchScores();
+  form.reset()
 });
 
 refreshButton.addEventListener('click', () => {
