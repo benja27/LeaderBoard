@@ -1,6 +1,8 @@
 .scores {
   border: 2px solid black;
   box-shadow: 0.5px 1px 1px 1px black;
+  overflow-y: scroll;
+  max-height: 90%;
 }
 
 .score {
