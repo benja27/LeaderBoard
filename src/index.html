@@ -29,7 +29,7 @@
 
         <div class="d-flex gap-3 py-3" >
           <h3>Recent Scores</h3>
-          <button type="button" class="btn btn-primary">Refresh</button>
+          <button type="button" class="btn btn-primary" id="refresh">Refresh</button>
         </div>
         
         <section class="scores">
@@ -53,14 +53,14 @@
 
        
        <div class="col-12 col-sm-6">
-        <form action="">
+        <form action="" id="form" >
           <h3 class="py-3" >Add your score</h3>
           <div class="mb-3">            
-            <input type="text" class="form-control" name="" id="name" aria-describedby="helpId" placeholder="Your name">                        
+            <input type="text" class="form-control" name="user" id="user" requiered aria-describedby="helpId" placeholder="Your name">                        
             
           </div>
           <div class="mb-3">
-            <input type="text" class="form-control" name="" id="score" aria-describedby="helpId" placeholder="Your score">            
+            <input type="number" class="form-control" name="score" id="score" required aria-describedby="helpId" placeholder="Your score">            
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form> 
@@ -85,3 +85,4 @@
 </body>
 
 </html>
+
