@@ -5,6 +5,10 @@
   max-height: 500px;
 }
 
+body {
+  background: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/0161d7108103367.5fb642de5de6d.gif");
+}
+
 .score {
   padding: 5px 0 5px 10px;
 }
@@ -15,4 +19,8 @@
 
 .score:nth-child(odd) {
   background-color: #ddd;
+}
+
+.score:nth-child(even) {
+  background-color: #fff;
 }
